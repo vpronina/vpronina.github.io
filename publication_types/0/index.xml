@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | Academic</title>
+    <link>/publication_types/0/</link>
+      <atom:link href="/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>0</title>
+      <link>/publication_types/0/</link>
+    </image>
+    
+    <item>
+      <title>Microscopy Image Restoration with Deep Wiener-Kolmogorov filters</title>
+      <link>/publication/pronina-2019-microscopy/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/pronina-2019-microscopy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear material decomposition in spectral CT using deep learning</title>
+      <link>/publication/abascal-2019-spectralct/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/publication/abascal-2019-spectralct/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

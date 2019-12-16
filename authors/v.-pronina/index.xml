@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>V. Pronina | Academic</title>
+    <link>/authors/v.-pronina/</link>
+      <atom:link href="/authors/v.-pronina/index.xml" rel="self" type="application/rss+xml" />
+    <description>V. Pronina</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2019 10:21:37 +0300</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>V. Pronina</title>
+      <link>/authors/v.-pronina/</link>
+    </image>
+    
+    <item>
+      <title>Nonlinear material decomposition in spectral CT using deep learning</title>
+      <link>/publication/abascal-2019-spectralct/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/publication/abascal-2019-spectralct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An EMG-based adaptive algorithm for motion detection in non-stationary noise</title>
+      <link>/publication/dogadov-2016-emg/</link>
+      <pubDate>Mon, 05 Dec 2016 10:29:47 +0300</pubDate>
+      <guid>/publication/dogadov-2016-emg/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

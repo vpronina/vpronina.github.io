@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Filippos Kokkinos | Academic</title>
+    <link>/authors/filippos-kokkinos/</link>
+      <atom:link href="/authors/filippos-kokkinos/index.xml" rel="self" type="application/rss+xml" />
+    <description>Filippos Kokkinos</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Filippos Kokkinos</title>
+      <link>/authors/filippos-kokkinos/</link>
+    </image>
+    
+    <item>
+      <title>Microscopy Image Restoration with Deep Wiener-Kolmogorov filters</title>
+      <link>/publication/pronina-2019-microscopy/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/pronina-2019-microscopy/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

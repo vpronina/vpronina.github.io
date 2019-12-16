@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Academic</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>Dmitry V. Dylov</title>
+      <link>/authors/dmitry-v.-dylov/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/dmitry-v.-dylov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Filippos Kokkinos</title>
+      <link>/authors/filippos-kokkinos/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/filippos-kokkinos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stamatios Lefkimmiatis</title>
+      <link>/authors/stamatios-lefkimmiatis/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/stamatios-lefkimmiatis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valeriya Pronina</title>
+      <link>/authors/valeriya-pronina/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/valeriya-pronina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Hauptmann</title>
+      <link>/authors/a.-hauptmann/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/authors/a.-hauptmann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F. Peyrin</title>
+      <link>/authors/f.-peyrin/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/authors/f.-peyrin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JFPJ Abascal</title>
+      <link>/authors/jfpj-abascal/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/authors/jfpj-abascal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>N. Ducros</title>
+      <link>/authors/n.-ducros/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/authors/n.-ducros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P. Douek</title>
+      <link>/authors/p.-douek/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/authors/p.-douek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Arridge</title>
+      <link>/authors/s.-arridge/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/authors/s.-arridge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Bussod</title>
+      <link>/authors/s.-bussod/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/authors/s.-bussod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>V. Pronina</title>
+      <link>/authors/v.-pronina/</link>
+      <pubDate>Mon, 15 Jul 2019 10:21:37 +0300</pubDate>
+      <guid>/authors/v.-pronina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Dogadov</title>
+      <link>/authors/a.-dogadov/</link>
+      <pubDate>Mon, 05 Dec 2016 10:29:47 +0300</pubDate>
+      <guid>/authors/a.-dogadov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Kobelev</title>
+      <link>/authors/a.-kobelev/</link>
+      <pubDate>Mon, 05 Dec 2016 10:29:47 +0300</pubDate>
+      <guid>/authors/a.-kobelev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A. Maslov</title>
+      <link>/authors/a.-maslov/</link>
+      <pubDate>Mon, 05 Dec 2016 10:29:47 +0300</pubDate>
+      <guid>/authors/a.-maslov/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>N. Rudnyi</title>
+      <link>/authors/n.-rudnyi/</link>
+      <pubDate>Mon, 05 Dec 2016 10:29:47 +0300</pubDate>
+      <guid>/authors/n.-rudnyi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Shchukin</title>
+      <link>/authors/s.-shchukin/</link>
+      <pubDate>Mon, 05 Dec 2016 10:29:47 +0300</pubDate>
+      <guid>/authors/s.-shchukin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am currently a Ph.D. student at Skoltech under the supervision of Prof. &lt;a href=&#34;https://faculty.skoltech.ru/people/dmitrydylov&#34;&gt;Dmitry Dylov&lt;/a&gt;. At the moment I am working on learnable algorithms for image restoration.&lt;/p&gt;
+&lt;p&gt;The scope of my research interests includes deep learning, machine learning, computer vision, inverse problems in imaging and signal processing, especially in biomedical field. I received my first Master degree from Bauman Moscow State Technical University in Moscow, Russia. During that time I was working on the development of algorithms and system for the effective processing of biomedical signals such as respiratory waves, electrocardiogram and electromyogram. After that I continued my studies and graduated with my second Master degree from École des Mines in Saint-Étienne, France, where I was working on application of machine learning for characterization of microscopic tissue images.&lt;/p&gt;
+&lt;p&gt;Apart of doing research, I play flute in the Neapolitan Ensemble named after Misailov.&lt;/p&gt;
+&lt;p&gt;For more information, please see my &lt;a href=&#34;files/cv.pdf&#34;&gt;CV&lt;/a&gt; or contact me via &lt;a href=&#34;mailto:valeriya.pronina@skoltech.ru&#34;&gt;mail&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
