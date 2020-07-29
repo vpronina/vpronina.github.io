@@ -1,0 +1,9 @@
+@inProceedings{Pronina2020DeepWienerRest,
+  title={Microscopy Wiener Restoration with Deep Wiener-Kolmogorov Filters},
+  author = {Valeriya Pronina and
+  Filippos Kokkinos and
+  Dmitry V. Dylov and
+  Stamatios Lefkimmiatis},
+  booktitle={ECCV},
+  year={2020}
+}
