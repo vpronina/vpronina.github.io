@@ -1,0 +1,285 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173306653-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173306653-1');
+</script>
+
+
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+<style type="text/css">
+    body {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        font-weight:300;
+        font-size:18px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1100px;
+    }
+
+    h1 {
+        font-weight:300;
+    }
+
+    .disclaimerbox {
+        background-color: #eee;
+        border: 1px solid #eeeeee;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+        padding: 20px;
+    }
+
+    video.header-vid {
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+    }
+
+    img.header-img {
+        height: 140px;
+        border: 1px solid black;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+    }
+
+    img.rounded {
+        border: 1px solid #eeeeee;
+        border-radius: 10px ;
+        -moz-border-radius: 10px ;
+        -webkit-border-radius: 10px ;
+    }
+
+    a:link,a:visited
+    {
+        color: #1367a7;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #208799;
+    }
+
+    td.dl-link {
+        height: 160px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow:
+                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+                5px 5px 0 0px #fff, /* The second layer */
+                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+                10px 10px 0 0px #fff, /* The third layer */
+                10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+                15px 15px 0 0px #fff, /* The fourth layer */
+                15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+                20px 20px 0 0px #fff, /* The fifth layer */
+                20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+                25px 25px 0 0px #fff, /* The fifth layer */
+                25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+        margin-left: 10px;
+        margin-right: 45px;
+    }
+
+
+    .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+        box-shadow:
+                0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+                5px 5px 0 0px #fff, /* The second layer */
+                5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+                10px 10px 0 0px #fff, /* The third layer */
+                10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 30px;
+        margin-bottom: 5px;
+    }
+
+    .vert-cent {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    hr
+    {
+        border: 0;
+        height: 1.5px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+</style>
+
+<html>
+  <head>
+        <title>Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters</title>
+        <meta property="og:title" content="Microscopy Image Rtionwith Deep Wiener-Kolmogorov Filters" />
+        <meta property="og:image" content="https://shubham-goel.github.io/ucmr/resources/images/teaser.png" />
+        <!-- #TODO --> 
+  </head>
+
+  <body>
+    <br>
+    <center>
+    <span style="font-size:42px">Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters</span>
+    
+    </center>
+
+    <br><br>
+      <table align=center width=800px>
+       <tr>
+        <td align=center width=100px>
+        <center>
+        <span style="font-size:25px"><a href="http://vpronina.github.io/">Valeriya Pronina</a></span>
+        </center>
+        </td>
+
+        <td align=center width=100px>
+        <center>
+        <span style="font-size:25px"><a href="http://fkokkinos.github.io/">Filippos Kokkinos</a></span>
+        </center>
+        </td>
+
+        <td align=center width=100px>
+        <center>
+        <span style="font-size:25px">Dmitry V. Dylov</a></span>
+        </center>
+        </td>
+
+	<td align=center width=100px>
+        <center>
+        <span style="font-size:25px">Stamatios Lefkimmiatis</a></span>
+        </center>
+        </td>
+     </tr>
+    </table>
+
+    <br>
+    <table align=center width=400px>
+     <tr>
+       <td align=center width=100px>
+       <center>
+       <span style="font-size:20px"><a href="https://arxiv.org/pdf/1911.10989.pdf">[Paper]</a></span>
+       </center>
+       </td>
+
+
+       <td align=center width=100px>
+        <center>
+        <span style="font-size:20px"><a href="https://arxiv.org/abs/1911.10989">[Arxiv]</a></span>
+        </center>
+        </td>
+
+       <td align=center width=100px>
+        <center>
+        <span style="font-size:20px"><a href="./resources/1911.10989-supp.pdf">[Supplementary]</a></span>
+        </center>
+        </td>
+
+      
+      <td align=center width=100px>
+      <center>
+      <span style="font-size:20px"><a href="https://github.com/vpronina/DeepWienerRestoration">[Code]</a></span>
+      </center>
+      </td>
+      
+   </tr>
+  </table>
+	<br>
+	<br>
+	<tr>
+	<td valign="middle" halign="middle">
+		<div style="align:left; text-align:center;">
+		    <img src="./resources/methods.png" height=600px" />
+		  
+		</div>
+		</td>	
+		</tr>
+                    <td width=600px>
+                      <center>
+                          <span style="font-size:16px"><i>Overview of the four proposed prior parametrization models. In (a) the one-shot Wiener filter with learnable kernels is depicted, while in (b) the same filter with predictable kernels is presented. In (c) the scheme incorporating prediction of perpixel regularization kernels into Wiener filter is shown. The proposed iterative scheme which combines Wiener filtering with the approximation of regularization with a CNNis visualized in (d).</i>
+                    </center>
+                    </td>
+                </tr>
+            </table>
+
+            <br><br>
+            Microscopy is a powerful visualization tool in biology, enabling the study of cells, tissues, and the fundamental biological processes; yet, the observed images typically suffer from blur and background noise. In this work, we propose a unifying framework of algorithms for Gaussian image deblurring and denoising. These algorithms are based on deep learning techniques for the design of learnable regularizers integrated into the Wiener-Kolmogorov filter. Our extensive experimentation
+line showcases that the proposed approach achieves a superior quality of image reconstruction and surpasses the solutions that rely either on deep learning or on optimization schemes alone. Augmented with the variance
+stabilizing transformation, the proposed reconstruction pipeline can also be successfully applied to the problem of Poisson image deblurring, surpassing the state-of-the-art methods. Moreover, several variants of the proposed framework demonstrate competitive performance at low computational complexity, which is of high importance for real-time imaging applications.
+            <br><br>
+          <hr>
+            <table align=center width=800>
+             <center><h1>Paper</h1></center>
+                <tr>
+                  <td><a href="https://arxiv.org/pdf/2007.10982.pdf"><img style="height:300px" src="./resources/paper.png"/></a></td>
+                  <td><span style="font-size:14pt">V. Pronina, F. Kokkinos, D.V. Dylov, S. Lefkimmiatis<br><br>
+                        Microscopy Image Restoration with Deep Wiener-Kolmogorov Filters<br><br>
+                        In ECCV, 2020.<br><br>
+                      <a href="https://arxiv.org/pdf/1911.10989.pdf">[pdf]</a> &nbsp; &nbsp;
+                      <a href="https://arxiv.org/abs/1911.10989">[arXiv]</a>  &nbsp; &nbsp;
+                      <a href="./resources/bibtex.txt">[bibtex]</a>  &nbsp; &nbsp;
+		      <a href="./resources/1911.10989-supp.pdf" type="application/pdf" width="100%" height="100%">[supplementary]</a> &nbsp; &nbsp;
+
+                    </td>
+              </tr>
+            </table>
+          <br>
+
+                <hr>
+
+                <center><h1>Results</h1></center>
+                <table align=center width=900px>
+                    <tr>
+                    
+                      <td valign="middle" halign="middle">
+                        <img src = "./resources/nipy_spectral_gaussian_300_new.png" height="1000px">
+                      </td>            
+
+                    </tr>
+		<br><br>
+		Originally, images are grayscale,  but a different colormap is used to better highlight the differences among the various reconstructions.
+
+                </table>
+                <br>
+                <hr>
+
+         <center><h1>Code</h1></center>
+
+         <table align=center width=500px>
+                <tr>
+                        <center>
+                          <a href='https://github.com/vpronina/DeepWienerRestoration'>
+                            <img class="round" style="height:400" src="./resources/nipy_spectral_gaussian.png"/>
+                        <!-- </a> -->
+                        </center>
+              </tr>
+          </table>
+
+            <table align=center width=800px>
+              <tr><center> <br>
+                <span style="font-size:28px">&nbsp;
+                    Will be available in time on
+                    <a href='https://github.com/vpronina/DeepWienerRestoration'>[GitHub]</a>
+                <span style="font-size:28px"></a></span>
+              <br>
+              </center></tr>
+          </table>
+            <br>
+          <hr>
+
+              This webpage template was borrowed from <a href="https://shubham-goel.github.io/ucmr/">this page</a>.
+            </left>
+
+        <br><br>
+</body>
+</html>
+
